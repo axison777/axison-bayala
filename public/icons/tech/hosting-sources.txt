@@ -1,0 +1,3 @@
+Render, Vercel, IONOS: https://github.com/simple-icons/simple-icons (CC0)
+Google Cloud: https://github.com/devicons/devicon
+o2switch: https://www.o2switch.fr/wp-content/uploads/2023/05/fav.png

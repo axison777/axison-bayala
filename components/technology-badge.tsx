@@ -1,7 +1,8 @@
-import {Cloud, Server, Globe, Code2, Network, PenTool} from 'lucide-react';
+import {Server, Code2, Network, PenTool} from 'lucide-react';
 
 const logos: Record<string, string[]> = {
   'node.js':['nodejs'], nodejs:['nodejs'], node:['nodejs'],
+  render:['render'], vercel:['vercel'], 'google cloud':['googlecloud'], ionos:['ionos'],
   express:['express'], 'express.js':['express'], laravel:['laravel'], python:['python'],
   mysql:['mysql'], postgresql:['postgresql'], postgres:['postgresql'], supabase:['supabase'],
   react:['react'], 'react native':['react'], javascript:['javascript'], js:['javascript'],
@@ -24,10 +25,10 @@ export default function TechnologyBadge({name}: {name: string}) {
   const key = name.trim().toLowerCase();
   const icons = logos[key];
   const aiLogo = aiLogos[key];
-  const Fallback = ['render','vercel','google cloud'].includes(key) ? Cloud : key === 'vps' ? Server : ['o2switch','ionos'].includes(key) ? Globe : key === 'api rest' ? Network : ['ux/ui','ui/ux','ux','ui'].includes(key) ? PenTool : Code2;
+  const Fallback = key === 'vps' ? Server : key === 'api rest' ? Network : ['ux/ui','ui/ux','ux','ui'].includes(key) ? PenTool : Code2;
   return <span className="technology-badge">
     <i className="technology-badge-icons" aria-hidden="true">
-      {aiLogo ? <img src={`/icons/ai/${aiLogo}`} alt="" width={20} height={20} loading="lazy" className="ai-tool-logo"/> : icons ? icons.map(icon => <img key={icon} src={`/icons/tech/${icon}.svg`} alt="" width={20} height={20} loading="lazy" className={lightLogos.has(icon) ? 'technology-logo-light' : icon === 'mysql' ? 'technology-logo-bright' : undefined}/>) : <Fallback size={19} strokeWidth={1.6}/>}
+      {key === 'o2switch' ? <img src="/icons/tech/o2switch.png" alt="" width={20} height={20} loading="lazy"/> : aiLogo ? <img src={`/icons/ai/${aiLogo}`} alt="" width={20} height={20} loading="lazy" className="ai-tool-logo"/> : icons ? icons.map(icon => <img key={icon} src={`/icons/tech/${icon}.svg`} alt="" width={20} height={20} loading="lazy" className={lightLogos.has(icon) ? 'technology-logo-light' : icon === 'mysql' ? 'technology-logo-bright' : undefined}/>) : <Fallback size={19} strokeWidth={1.6}/>}
     </i>
     <b>{name}</b>
   </span>;
