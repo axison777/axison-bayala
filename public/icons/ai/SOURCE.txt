@@ -1,0 +1,4 @@
+Codex, Claude, Gemini, ChatGLM (GLM): https://github.com/lobehub/lobe-icons
+Commit: 05260484d9f4de68f90cc87a634ae68fa4043efd
+Stitch: https://stitch.withgoogle.com/ — favicon-48x48.png linked in page head
+UX Pilot: https://uxpilot.ai/ — logo192.png linked in page head

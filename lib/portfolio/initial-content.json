@@ -1,0 +1,734 @@
+{
+  "profile": {
+    "name": "Miguel Axison Bayala",
+    "cardFirstName": "MIGUEL AXISON",
+    "cardLastName": "BAYALA",
+    "role": "Développeur Full Stack & Designer",
+    "cardRole": "DÉVELOPPEUR FULL STACK",
+    "intro": "Je conçois des applications web et mobiles utiles, avec une expertise en React, Node.js et bases de données.",
+    "location": "Ouagadougou, Burkina Faso",
+    "email": "bayalaaxison@gmail.com",
+    "phone": "+226 76 22 09 70",
+    "whatsapp": "+226 77 71 51 48",
+    "github": "https://github.com/axisonbayala",
+    "linkedin": "https://www.linkedin.com/in/axison-bayala-ab55282b5/",
+    "photo": "/images/axison.png",
+    "cv": "/CV-Miguel-Axison-Bayala.pdf",
+    "aboutTitle": "Curieux par nature.",
+    "aboutSubtitle": "Créateur par conviction.",
+    "aboutText": "Développeur full stack burkinabè, je suis convaincu que le code peut résoudre des problèmes concrets et améliorer le quotidien. L’éducation, la santé et les initiatives communautaires donnent un sens particulier à mon travail.",
+    "aboutText2": "Mon parcours traverse l’entreprise, le freelance et l’engagement associatif. Je m’appuie sur Node.js, Express, React et les bases de données relationnelles pour faire le lien entre les besoins humains et les solutions techniques.",
+    "aboutNotes": [
+      "De la conception au déploiement",
+      "Travail en équipe, mentoring et partage de connaissances",
+      "IA intégrée à mon workflow de conception et de développement",
+      "Capsules vidéo et formation à la prise en main des outils"
+    ]
+  },
+  "ratings": [
+    {
+      "id": "frontend",
+      "code": "FRN",
+      "label": "Frontend",
+      "detail": "React · TypeScript · interfaces",
+      "value": 85
+    },
+    {
+      "id": "backend",
+      "code": "BCK",
+      "label": "Backend",
+      "detail": "Node.js · Express · API REST",
+      "value": 88
+    },
+    {
+      "id": "mobile",
+      "code": "MOB",
+      "label": "Mobile",
+      "detail": "Flutter · React Native",
+      "value": 80
+    },
+    {
+      "id": "data",
+      "code": "DAT",
+      "label": "Bases de données",
+      "detail": "MySQL · PostgreSQL · Supabase",
+      "value": 80
+    },
+    {
+      "id": "design",
+      "code": "DSG",
+      "label": "Design UI/UX",
+      "detail": "Figma · expérience utilisateur",
+      "value": 82
+    },
+    {
+      "id": "systems",
+      "code": "SYS",
+      "label": "Systèmes & réseaux",
+      "detail": "Linux · infrastructure · sécurité",
+      "value": 75
+    }
+  ],
+  "ratingsConfirmed": false,
+  "projects": [
+    {
+      "id": "sms-nana",
+      "visible": true,
+      "name": "SMS Nanan",
+      "type": "Communication multicanale · SaaS & IA",
+      "categories": [
+        "Frontend",
+        "Backend"
+      ],
+      "tech": [
+        "Laravel",
+        "React",
+        "TypeScript",
+        "PostgreSQL",
+        "Redis",
+        "IA"
+      ],
+      "company": "Tech Pôle Expertise",
+      "description": "Créer et suivre des campagnes SMS, WhatsApp et email, avec un assistant IA et un portefeuille Mobile Money.",
+      "detail": "Plateforme de communication client développée chez Tech Pôle Expertise. Elle réunit la gestion des contacts, les segments, les campagnes multicanales et les automatisations. Un assistant IA prépare les campagnes à partir d’une demande en langage naturel, avec confirmation humaine avant envoi. Le portefeuille prépayé et les recharges Mobile Money accompagnent le suivi de consommation. L’architecture associe une API Laravel modulaire, une interface React et un service IA.",
+      "visual": "project",
+      "confidential": false,
+      "images": [
+        "/images/sms-nanan-dashboard.jpg",
+        "/images/sms-nanan-agent.jpg",
+        "/images/sms-nanan-campaign.jpg",
+        "/images/sms-nanan-1.jpg",
+        "/images/sms-nanan-login.jpg"
+      ],
+      "loginImage": "/images/sms-nanan-login.jpg"
+    },
+    {
+      "id": "parcmanager",
+      "visible": true,
+      "name": "ParcManager",
+      "type": "Gestion de parc · SaaS multi-entreprises",
+      "categories": [
+        "Frontend",
+        "Backend"
+      ],
+      "tech": [
+        "Laravel",
+        "React",
+        "TypeScript",
+        "Sanctum",
+        "Tailwind CSS",
+        "shadcn/ui"
+      ],
+      "company": "Tech Pôle Expertise",
+      "description": "Inventorier les équipements, suivre leurs attributions et organiser la maintenance dans un espace dédié à chaque entreprise.",
+      "detail": "Plateforme de gestion de parc développée chez Tech Pôle Expertise. Chaque entreprise dispose d’un espace pour gérer son personnel, ses départements et ses équipements. Les fiches matériel et les QR codes facilitent l’identification, tandis que l’historique conserve les attributions et retours. Les tickets et plans de maintenance couvrent les interventions correctives et préventives. Des tableaux de bord, alertes et exports PDF/Excel complètent le suivi. Le backend Laravel modulaire gère les accès et l’isolation des données, avec une interface React.",
+      "visual": "project",
+      "confidential": false,
+      "images": [
+        "/images/parcmanager-dashboard.jpg",
+        "/images/parcmanager-companies.jpg",
+        "/images/parcmanager-company-form.jpg",
+        "/images/parcmanager-1.jpg"
+      ],
+      "loginImage": "/images/parcmanager-1.jpg"
+    },
+    {
+      "id": "sygra",
+      "visible": true,
+      "name": "SYGRA",
+      "type": "Gestion des repas · Temps réel",
+      "categories": [
+        "Frontend",
+        "Backend"
+      ],
+      "tech": [
+        "Laravel",
+        "React",
+        "TypeScript",
+        "PostgreSQL",
+        "Laravel Reverb",
+        "Redis"
+      ],
+      "company": "Tech Pôle Expertise",
+      "description": "Commander les repas du jour et transmettre en temps réel à la cuisine les quantités par site, plat et option.",
+      "detail": "SYGRA, Système de Gestion des Repas de l’Administration, centralise les menus et les commandes de repas. Les collaborateurs choisissent leur plat et la cuisine suit les totaux en direct. L’administration gère les sites, départements, employés et menus, puis publie et archive les commandes quotidiennes. Le projet comprend la migration de Supabase vers une API Laravel, avec authentification Sanctum, stockage et tâches planifiées. Laravel Reverb assure la synchronisation en temps réel. Les règles de clôture, d’unicité des commandes et de validation des options sont appliquées côté serveur.",
+      "visual": "project",
+      "confidential": false,
+      "images": [
+        "/images/sygra-dashboard.jpg",
+        "/images/sygra-meals.jpg",
+        "/images/sygra-reports.jpg",
+        "/images/sygra-1.jpg",
+        "/images/sygra-login.jpg"
+      ],
+      "loginImage": "/images/sygra-login.jpg"
+    },
+    {
+      "id": "plantcare",
+      "visible": true,
+      "name": "PlantCare AI",
+      "type": "Intelligence artificielle",
+      "categories": [
+        "Frontend",
+        "Mobile",
+        "UI/UX"
+      ],
+      "tech": [
+        "Flutter",
+        "React",
+        "Node.js",
+        "Python"
+      ],
+      "company": "Freelance",
+      "description": "Détecter les maladies des plantes à partir de photos.",
+      "detail": "Conception UI/UX et développement web et mobile d’une application de détection des maladies végétales par intelligence artificielle. Le projet associe une expérience de prise de photo à des outils d’analyse pour mieux comprendre la santé des plantes.",
+      "visual": "plant",
+      "images": [
+        "/images/plantcare-1.png",
+        "/images/plantcare-2.png",
+        "/images/plantcare-3.png"
+      ],
+      "loginImage": "/images/plantcare-1.png",
+      "role": "Conception UI/UX · Développement web & mobile"
+    },
+    {
+      "id": "allemagne",
+      "visible": true,
+      "name": "MDLA Service · Maison de l’Allemagne",
+      "type": "Formation · E-commerce · Import-export",
+      "categories": [
+        "Frontend",
+        "Backend"
+      ],
+      "tech": [
+        "React",
+        "Node.js",
+        "Express",
+        "PostgreSQL",
+        "Socket.IO"
+      ],
+      "company": "Maison de l’Allemagne · Freelance",
+      "description": "Une plateforme qui relie formation en allemand, boutique en ligne et suivi des dossiers d’import-export.",
+      "detail": "MDLA Service accompagne les échanges entre l’Allemagne et l’Afrique. La plateforme associe un site de présentation, un catalogue de formations et une boutique. Son administration centralise les cours et leur validation, les produits en stock ou sur commande, ainsi que le suivi des dossiers logistiques et de leur statut. Des espaces dédiés organisent aussi les utilisateurs, la communication et le marketing. Le projet repose sur React et une API Node.js/Express avec PostgreSQL. La capture de la vue d’ensemble présente des indicateurs de démonstration.",
+      "visual": "learning",
+      "images": [
+        "/images/mdla-dashboard.jpg",
+        "/images/mdla-training.jpg",
+        "/images/mdla-shop.jpg",
+        "/images/mdla-login.jpg"
+      ],
+      "loginImage": "/images/mdla-login.jpg"
+    },
+    {
+      "id": "apec",
+      "visible": true,
+      "name": "APEC Mobile",
+      "type": "Application mobile · Développement & UI/UX",
+      "categories": [
+        "Mobile",
+        "UI/UX"
+      ],
+      "tech": [
+        "Flutter",
+        "Dart",
+        "GetX",
+        "Dio",
+        "Firebase"
+      ],
+      "company": "Tech Pôle Expertise",
+      "description": "Conception des maquettes UI/UX et développement mobile pour accéder à l’actionnariat populaire et suivre ses souscriptions.",
+      "detail": "Application Flutter destinée aux membres de l’APEC, avec inscription, connexion et vérification de compte. Elle regroupe les campagnes de souscription, le portefeuille et l’historique des transactions. Le projet comprend aussi les parcours d’affiliation, de réclamation et de récupération des anciens comptes, en communiquant avec une API REST. Les écrans connectés sont présentés en mode démonstration avec des données fictives.",
+      "visual": "apec",
+      "confidential": false,
+      "images": [
+        "/images/apec-mobile-onboarding.jpg",
+        "/images/apec-mobile-demo-home.jpg",
+        "/images/apec-mobile-demo-subscriptions.jpg",
+        "/images/apec-mobile-demo-history.jpg",
+        "/images/apec-mobile-demo-wallet.jpg",
+        "/images/apec-mobile-login.jpg"
+      ],
+      "loginImage": "",
+      "role": "Réalisation des maquettes UI/UX et conception des interfaces de l’application. Optimisation et assistance au développement mobile dans le cadre des projets de Tech Pôle Expertise."
+    },
+    {
+      "id": "apec-web",
+      "visible": true,
+      "name": "APEC Web",
+      "type": "Plateforme web · Actionnariat populaire",
+      "categories": [
+        "Frontend",
+        "UI/UX"
+      ],
+      "tech": [
+        "Angular"
+      ],
+      "company": "Tech Pôle Expertise",
+      "description": "Le portail web de souscription à l’actionnariat populaire, accessible depuis le site institutionnel de l’APEC.",
+      "detail": "La version web permet aux membres de rejoindre le portail de souscription de l’APEC et de se connecter par email ou téléphone. Son interface propose la création de compte et l’activation ou la récupération d’un ancien compte. Le portail Angular est accessible depuis apec.bf, qui présente l’agence, ses secteurs d’intervention et ses actualités. Les captures montrent les écrans publics du portail et du site institutionnel.",
+      "visual": "apec",
+      "confidential": false,
+      "images": [
+        "/images/apec-web-subscription.jpg",
+        "/images/apec-web-home.jpg",
+        "/images/apec-web-about.jpg",
+        "/images/apec-web-news.jpg",
+        "/images/apec-web-login.jpg"
+      ],
+      "loginImage": "/images/apec-web-login.jpg",
+      "role": "Réalisation des maquettes UI/UX du projet APEC."
+    },
+    {
+      "id": "sms-nana-uiux",
+      "visible": true,
+      "name": "SMS Nana · UI/UX",
+      "type": "Site vitrine · Maquettes UI/UX",
+      "categories": [
+        "UI/UX"
+      ],
+      "tech": [
+        "Adobe XD"
+      ],
+      "company": "Tech Pôle Expertise",
+      "description": "Une interface claire pour présenter la plateforme de communication et guider les visiteurs vers le contact.",
+      "detail": "Conception des pages d’accueil, contact, FAQ et détail d’une question. Les maquettes structurent la présentation des services, les appels à l’action et les parcours d’information. Les exports proviennent des fichiers Adobe XD du projet.",
+      "visual": "project",
+      "confidential": false,
+      "images": [
+        "/images/uiux/sms-nana-uiux-1.jpg",
+        "/images/uiux/sms-nana-uiux-2.jpg",
+        "/images/uiux/sms-nana-uiux-3.jpg",
+        "/images/uiux/sms-nana-uiux-4.jpg"
+      ],
+      "role": "Conception des interfaces et réalisation des maquettes UI/UX."
+    },
+    {
+      "id": "economat-uiux",
+      "visible": true,
+      "name": "Économat · React & UI/UX",
+      "type": "ERP · Développement React & maquettes UI/UX",
+      "categories": [
+        "Frontend",
+        "UI/UX"
+      ],
+      "tech": [
+        "React",
+        "UI Design",
+        "UX Design"
+      ],
+      "company": "Tech Pôle Expertise",
+      "description": "Conception des maquettes UI/UX et développement du frontend React pour la gestion d’un économat.",
+      "detail": "Conception des écrans de tableau de bord, catalogue articles, clients, approvisionnements, inventaires et transferts, puis développement des interfaces en React. Le travail organise les indicateurs, les tableaux et les actions des utilisateurs dans une interface cohérente. Les visuels présentés sont les maquettes UI/UX du projet.",
+      "visual": "project",
+      "confidential": false,
+      "images": [
+        "/images/uiux/economat-uiux-1.jpg",
+        "/images/uiux/economat-uiux-2.jpg",
+        "/images/uiux/economat-uiux-3.jpg",
+        "/images/uiux/economat-uiux-4.jpg",
+        "/images/uiux/economat-uiux-5.jpg",
+        "/images/uiux/economat-uiux-6.jpg"
+      ],
+      "role": "Conception des interfaces, réalisation des maquettes UI/UX et développement du frontend en React."
+    },
+    {
+      "id": "it-space-uiux",
+      "visible": true,
+      "name": "IT Space · UI/UX",
+      "type": "Gestion commerciale · Maquettes UI/UX",
+      "categories": [
+        "UI/UX"
+      ],
+      "tech": [
+        "UI Design",
+        "UX Design"
+      ],
+      "company": "IT Space Solution",
+      "description": "Un espace de travail pour suivre les devis, les produits, les fournisseurs et les commissions.",
+      "detail": "Conception d’interfaces de gestion commerciale : tableau de bord, listes de devis, catalogue produits, fournisseurs, création de devis et suivi des commissions. Les maquettes mettent en forme les parcours et la hiérarchie des informations.",
+      "visual": "project",
+      "confidential": false,
+      "images": [
+        "/images/uiux/it-space-uiux-1.jpg",
+        "/images/uiux/it-space-uiux-2.jpg",
+        "/images/uiux/it-space-uiux-3.jpg",
+        "/images/uiux/it-space-uiux-4.jpg",
+        "/images/uiux/it-space-uiux-5.jpg",
+        "/images/uiux/it-space-uiux-6.jpg"
+      ],
+      "role": "Conception des interfaces et réalisation des maquettes UI/UX."
+    },
+    {
+      "id": "plantcare-uiux",
+      "visible": true,
+      "name": "PlantCare AI · UI/UX",
+      "type": "Application de diagnostic végétal · Maquettes UI/UX",
+      "categories": [
+        "UI/UX"
+      ],
+      "tech": [
+        "UI Design",
+        "Mobile Design"
+      ],
+      "company": "Projet personnel",
+      "description": "Des interfaces mobiles pour scanner une plante et retrouver ses diagnostics.",
+      "detail": "Conception du tableau de bord mobile et de l’écran de scan d’une plante. Les maquettes organisent l’accès à la caméra, les diagnostics récents et la navigation entre accueil, scanner, journal et conseils.",
+      "visual": "project",
+      "confidential": false,
+      "images": [
+        "/images/uiux/plantcare-uiux-1.jpg",
+        "/images/uiux/plantcare-uiux-2.jpg"
+      ],
+      "mobileImages": [
+        "/images/uiux/plantcare-uiux-1.jpg",
+        "/images/uiux/plantcare-uiux-2.jpg"
+      ],
+      "role": "Conception des interfaces et réalisation des maquettes UI/UX."
+    },
+    {
+      "id": "gastronomie-uiux",
+      "visible": true,
+      "name": "Gastronomie Service · UI/UX",
+      "type": "Restauration collective · Maquettes UI/UX",
+      "categories": [
+        "UI/UX"
+      ],
+      "tech": [
+        "UI Design",
+        "Responsive Design"
+      ],
+      "company": "Tech Pôle Expertise",
+      "description": "Une expérience de commande de repas pour les collaborateurs et une interface de gestion pour les équipes.",
+      "detail": "Conception des parcours de restauration collective : tableau de bord administrateur, connexion, gestion du menu, sites et départements, collaborateurs, matrice de commandes et journal. La galerie inclut les déclinaisons mobiles du choix de menu, des commandes et de la synthèse.",
+      "visual": "project",
+      "confidential": false,
+      "images": [
+        "/images/uiux/gastronomie-uiux-1.jpg",
+        "/images/uiux/gastronomie-uiux-2.jpg",
+        "/images/uiux/gastronomie-uiux-3.jpg",
+        "/images/uiux/gastronomie-uiux-4.jpg",
+        "/images/uiux/gastronomie-uiux-5.jpg",
+        "/images/uiux/gastronomie-uiux-6.jpg",
+        "/images/uiux/gastronomie-uiux-7.jpg",
+        "/images/uiux/gastronomie-uiux-8.jpg",
+        "/images/uiux/gastronomie-uiux-9.jpg",
+        "/images/uiux/gastronomie-uiux-10.jpg"
+      ],
+      "mobileImages": [
+        "/images/uiux/gastronomie-uiux-8.jpg",
+        "/images/uiux/gastronomie-uiux-9.jpg",
+        "/images/uiux/gastronomie-uiux-10.jpg"
+      ],
+      "role": "Conception des interfaces et réalisation des maquettes UI/UX."
+    },
+    {
+      "id": "obo-uiux",
+      "visible": true,
+      "name": "OBO Smart Market · UI/UX",
+      "type": "Commerce mobile · Maquettes UI/UX",
+      "categories": [
+        "UI/UX"
+      ],
+      "tech": [
+        "UI Design",
+        "Mobile Design"
+      ],
+      "company": "OBO Smart Market",
+      "description": "Un parcours d’achat mobile centré sur les produits locaux et la livraison.",
+      "detail": "Conception d’une application de marché en ligne : accueil, inscription et connexion, fiche produit, panier, adresses de livraison, suivi et historique des commandes, fidélité et compte. Les écrans présentent le parcours d’achat imaginé dans les maquettes.",
+      "visual": "project",
+      "confidential": false,
+      "images": [
+        "/images/uiux/obo-uiux-1.jpg",
+        "/images/uiux/obo-uiux-2.jpg",
+        "/images/uiux/obo-uiux-3.jpg",
+        "/images/uiux/obo-uiux-4.jpg",
+        "/images/uiux/obo-uiux-5.jpg",
+        "/images/uiux/obo-uiux-6.jpg",
+        "/images/uiux/obo-uiux-7.jpg",
+        "/images/uiux/obo-uiux-8.jpg",
+        "/images/uiux/obo-uiux-9.jpg",
+        "/images/uiux/obo-uiux-10.jpg"
+      ],
+      "mobileImages": [
+        "/images/uiux/obo-uiux-1.jpg",
+        "/images/uiux/obo-uiux-2.jpg",
+        "/images/uiux/obo-uiux-3.jpg",
+        "/images/uiux/obo-uiux-4.jpg",
+        "/images/uiux/obo-uiux-5.jpg",
+        "/images/uiux/obo-uiux-6.jpg",
+        "/images/uiux/obo-uiux-7.jpg",
+        "/images/uiux/obo-uiux-8.jpg",
+        "/images/uiux/obo-uiux-9.jpg",
+        "/images/uiux/obo-uiux-10.jpg"
+      ],
+      "role": "Conception des interfaces et réalisation des maquettes UI/UX."
+    },
+    {
+      "id": "univers-reseau",
+      "visible": true,
+      "name": "Univers · Réseau & Wi-Fi",
+      "type": "Extension Wi-Fi · Réseau & maintenance",
+      "categories": [
+        "Réseaux & maintenance"
+      ],
+      "tech": [
+        "Wi-Fi",
+        "Réseau local",
+        "Équipements bureautiques",
+        "Maintenance informatique"
+      ],
+      "company": "Univers",
+      "description": "Extension de la couverture Wi-Fi, mise en réseau d’équipements bureautiques et maintenance informatique pour Univers.",
+      "detail": "Mise en place de systèmes pour étendre la connexion Wi-Fi au sein de l’entreprise Univers. L’intervention comprend également la mise en réseau d’équipements bureautiques et la maintenance informatique pour accompagner leur utilisation au quotidien.",
+      "visual": "network",
+      "confidential": false,
+      "images": [],
+      "role": "Installation et configuration des équipements d’extension Wi-Fi, raccordement des équipements bureautiques au réseau et interventions de maintenance."
+    },
+    {
+      "id": "eja-reseau",
+      "visible": true,
+      "name": "UN-ABPAM / EJA · Réseau & maintenance",
+      "type": "Extension Wi-Fi · Réseau & maintenance",
+      "categories": [
+        "Réseaux & maintenance"
+      ],
+      "tech": [
+        "Wi-Fi",
+        "Réseau local",
+        "Équipements bureautiques",
+        "Maintenance informatique"
+      ],
+      "company": "UN-ABPAM / École des Jeunes Aveugles (EJA)",
+      "description": "Extension de la connexion Wi-Fi, mise en réseau d’équipements bureautiques et maintenance pour l’UN-ABPAM / EJA.",
+      "detail": "Mise en place de systèmes d’extension de la connexion Wi-Fi pour l’UN-ABPAM / École des Jeunes Aveugles (EJA). L’intervention couvre la mise en réseau d’équipements bureautiques ainsi que la maintenance informatique.",
+      "visual": "network",
+      "confidential": false,
+      "images": [],
+      "role": "Installation et configuration de l’extension Wi-Fi, mise en réseau des équipements bureautiques et maintenance informatique."
+    }
+  ],
+  "experiences": [
+    {
+      "id": "experiences-1",
+      "visible": true,
+      "date": "DÉC. 2024 — MAI 2026",
+      "role": "Développeur logiciel",
+      "company": "Tech Pole Expertise",
+      "text": "Développement et maintenance d’applications métier en production, optimisation des performances, rédaction de manuels et tests d’acceptation utilisateur."
+    },
+    {
+      "id": "experiences-2",
+      "visible": true,
+      "date": "2024 — 2026",
+      "role": "Technologie & opportunités numériques",
+      "company": "AYID · Bénévolat",
+      "text": "Conception de programmes d’ateliers, communication visuelle et veille sur l’intelligence artificielle et l’automatisation."
+    },
+    {
+      "id": "experiences-3",
+      "visible": true,
+      "date": "AVR. — DÉC. 2024",
+      "role": "Stagiaire IT",
+      "company": "Global Data Consulting",
+      "text": "Installation, maintenance et supervision d’équipements informatiques. Support au développement frontend et backend."
+    },
+    {
+      "id": "experiences-4",
+      "visible": true,
+      "date": "AVR. — OCT. 2023",
+      "role": "Stagiaire développeur web",
+      "company": "ESSITECH",
+      "text": "Développement d’un site de location de véhicules et maintenance de la plateforme de formation Moodle."
+    },
+    {
+      "id": "experiences-5",
+      "visible": true,
+      "date": "AOÛT 2019 — DÉC. 2020",
+      "role": "Assistant développeur web",
+      "company": "NAYAMAX",
+      "text": "Création et administration de la plateforme e-commerce de la startup."
+    }
+  ],
+  "formations": [
+    {
+      "id": "formation-1",
+      "visible": true,
+      "title": "Développeur Full Stack",
+      "school": "Orange Digital Center",
+      "date": "2021"
+    },
+    {
+      "id": "formation-2",
+      "visible": true,
+      "title": "UX/UI Design",
+      "school": "Meta",
+      "date": "2023"
+    },
+    {
+      "id": "formation-3",
+      "visible": true,
+      "title": "Intelligence artificielle",
+      "school": "IBM",
+      "date": "2024"
+    }
+  ],
+  "skillGroups": [
+    {
+      "id": "skillGroups-1",
+      "visible": true,
+      "title": "Backend & données",
+      "items": [
+        "Node.js",
+        "Express",
+        "API REST",
+        "Laravel",
+        "Python",
+        "MySQL",
+        "PostgreSQL",
+        "Supabase"
+      ]
+    },
+    {
+      "id": "skillGroups-2",
+      "visible": true,
+      "title": "Web & mobile",
+      "items": [
+        "React",
+        "JavaScript",
+        "TypeScript",
+        "HTML / CSS",
+        "Tailwind CSS",
+        "Bootstrap",
+        "React Native",
+        "Flutter"
+      ]
+    },
+    {
+      "id": "skillGroups-3",
+      "visible": true,
+      "title": "Design & outils",
+      "items": [
+        "Figma",
+        "UX/UI",
+        "Git / GitHub",
+        "Postman",
+        "Linux",
+        "VS Code",
+        "Photoshop",
+        "Illustrator"
+      ]
+    },
+    {
+      "id": "skillGroups-ai",
+      "visible": true,
+      "title": "IA & conception assistée",
+      "items": [
+        "Codex",
+        "Claude",
+        "Gemini",
+        "GLM",
+        "Stitch",
+        "UX Pilot"
+      ]
+    }
+  ],
+  "services": [
+    {
+      "id": "services-1",
+      "visible": true,
+      "icon": "Database",
+      "title": "API backend & bases de données",
+      "text": "Conception d’API REST avec Node.js et Express, authentification, modélisation des données et documentation.",
+      "items": [
+        "API REST & intégration",
+        "MySQL / PostgreSQL",
+        "Documentation & tests"
+      ]
+    },
+    {
+      "id": "services-2",
+      "visible": true,
+      "icon": "Code2",
+      "title": "Applications React & sites vitrine",
+      "text": "Des interfaces adaptées au mobile, des composants réutilisables et une connexion fluide avec vos services.",
+      "items": [
+        "Interfaces responsive",
+        "Intégration API",
+        "Design sur mesure"
+      ]
+    },
+    {
+      "id": "services-3",
+      "visible": true,
+      "icon": "RefreshCw",
+      "title": "Modernisation d’applications",
+      "text": "Faire évoluer une interface Bootstrap vers React en repensant les composants et la structure du projet.",
+      "items": [
+        "Audit de l’existant",
+        "Migration Bootstrap → React",
+        "Accompagnement de l’équipe"
+      ]
+    },
+    {
+      "id": "services-4",
+      "visible": true,
+      "icon": "HeartHandshake",
+      "title": "Projets à impact social",
+      "text": "Des outils numériques pour les associations et les initiatives éducatives, sanitaires et communautaires.",
+      "items": [
+        "Analyse des besoins",
+        "Formation des utilisateurs",
+        "Accompagnement technique"
+      ]
+    },
+    {
+      "id": "services-training-video",
+      "visible": true,
+      "icon": "Video",
+      "title": "Capsules vidéo & formation",
+      "text": "Je crée des capsules vidéo de démonstration pour guider les utilisateurs dans les fonctionnalités des plateformes que je développe. J’assure aussi les formations à la prise en main, avec des explications concrètes et des exercices adaptés aux usages, pour aider les équipes à devenir autonomes.",
+      "items": [
+        "Capsules vidéo de démonstration",
+        "Tutoriels de prise en main",
+        "Formation des utilisateurs",
+        "Accompagnement à l’adoption des outils"
+      ]
+    }
+  ],
+  "expertises": [
+    {
+      "id": "expertise-1",
+      "visible": true,
+      "icon": "Code2",
+      "title": "Développement web & mobile",
+      "text": "Des applications métier et des expériences digitales pensées pour les personnes qui les utilisent.",
+      "tags": "React · Node.js · Express · MySQL · Flutter"
+    },
+    {
+      "id": "expertise-2",
+      "visible": true,
+      "icon": "Layers",
+      "title": "Design d’interfaces",
+      "text": "Des interfaces claires, une hiérarchie soignée et une identité visuelle cohérente, de l’idée à la maquette.",
+      "tags": "Figma · UX/UI · Photoshop · Illustrator"
+    },
+    {
+      "id": "expertise-3",
+      "visible": true,
+      "icon": "Network",
+      "title": "Systèmes & réseaux",
+      "text": "Une compréhension de l’infrastructure pour relier le logiciel à son environnement et accompagner son déploiement.",
+      "tags": "Linux · Windows Server · Réseaux · Sécurité"
+    },
+    {
+      "id": "expertise-ai-workflow",
+      "visible": true,
+      "icon": "Sparkles",
+      "title": "L’IA dans mon quotidien",
+      "text": "J’utilise l’IA comme partenaire de travail pour explorer les besoins, concevoir des interfaces, développer, déboguer et documenter. Elle m’aide à avancer plus vite, à explorer plusieurs pistes et à soigner les détails. Je garde la main sur les choix, j’adapte les propositions au contexte et je vérifie le résultat pour livrer un travail abouti.",
+      "tags": "Conception · Développement · Itération · Vérification"
+    }
+  ]
+}
