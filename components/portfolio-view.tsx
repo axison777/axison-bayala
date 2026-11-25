@@ -2,6 +2,7 @@
 import {useState} from "react";
 import TechnologyBadge from "@/components/technology-badge";
 import SkillPlayerCard from "@/components/skill-player-card";
+import HeroWorkshop from "@/components/hero-workshop";
 import {ArrowUpRight, Download, Code2, Layers, Network, X, Menu, MapPin, Plus, Minus, Check, Copy, Leaf, Wallet, GraduationCap, MessageCircle, Phone, LockKeyhole, Database, HeartHandshake, RefreshCw, Sparkles, Video} from "lucide-react";
 
 import Link from "next/link";
@@ -32,11 +33,11 @@ export default function PortfolioView({content}:{content:PortfolioContent}){
  const visible = all ? filtered : filtered.slice(0, 6);
  return <>
  <a className="skip-link" href="#main">Aller au contenu</a>
- <header className="header"><a className="brand" href="#" aria-label="Axison, accueil"><Mark/>axison<span className="brand-dot">.</span></a><nav className={menu?"nav open":"nav"} aria-label="Navigation principale">{[["Réalisations","projets"],["Expertises","expertises"],["À propos","apropos"],["Parcours","parcours"]].map(([name,id])=><a key={id} href={`#${id}`} onClick={()=>setMenu(false)}>{name}</a>)}</nav><a className="button small header-contact" href="#contact">Parlons de votre projet <ArrowUpRight size={16}/></a><button className="menu-toggle" aria-label={menu?"Fermer le menu":"Ouvrir le menu"} aria-expanded={menu} onClick={()=>setMenu(!menu)}>{menu?<X/>:<Menu/>}</button></header>
+ <header className="header"><a className="brand" href="#" aria-label={`${profile.name}, accueil`}><Mark/><span className="header-name">{profile.name}<span className="brand-dot">.</span></span></a><nav className={menu?"nav open":"nav"} aria-label="Navigation principale">{[["Réalisations","projets"],["Expertises","expertises"],["À propos","apropos"],["Parcours","parcours"]].map(([name,id])=><a key={id} href={`#${id}`} onClick={()=>setMenu(false)}>{name}</a>)}</nav><a className="button small header-contact" href="#contact">Parlons de votre projet <ArrowUpRight size={16}/></a><button className="menu-toggle" aria-label={menu?"Fermer le menu":"Ouvrir le menu"} aria-expanded={menu} onClick={()=>setMenu(!menu)}>{menu?<X/>:<Menu/>}</button></header>
  <main id="main">
  <section className="hero wrap home-hero">
    <div className="hero-copy">
-     <p className="home-name">{profile.name} · {profile.role}</p>
+     <p className="home-name">{profile.role}</p>
      <h1>Des idées.<br/>Du code qui <span>sert.</span></h1>
      <p>{profile.intro}</p>
      <div className="hero-actions">
@@ -44,6 +45,7 @@ export default function PortfolioView({content}:{content:PortfolioContent}){
        <a className="text-link" href="#projets">Voir mes réalisations <ArrowUpRight size={16}/></a>
      </div>
    </div>
+   <HeroWorkshop/>
  </section>
  <div className="home-facts wrap">
    <a href="#projets"><strong>{projects.length}</strong> Réalisations</a>

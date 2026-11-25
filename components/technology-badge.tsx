@@ -1,4 +1,4 @@
-import {Code2, Network, PenTool} from 'lucide-react';
+import {Cloud, Server, Globe, Code2, Network, PenTool} from 'lucide-react';
 
 const logos: Record<string, string[]> = {
   'node.js':['nodejs'], nodejs:['nodejs'], node:['nodejs'],
@@ -24,7 +24,7 @@ export default function TechnologyBadge({name}: {name: string}) {
   const key = name.trim().toLowerCase();
   const icons = logos[key];
   const aiLogo = aiLogos[key];
-  const Fallback = key === 'api rest' ? Network : ['ux/ui','ui/ux','ux','ui'].includes(key) ? PenTool : Code2;
+  const Fallback = ['render','vercel','google cloud'].includes(key) ? Cloud : key === 'vps' ? Server : ['o2switch','ionos'].includes(key) ? Globe : key === 'api rest' ? Network : ['ux/ui','ui/ux','ux','ui'].includes(key) ? PenTool : Code2;
   return <span className="technology-badge">
     <i className="technology-badge-icons" aria-hidden="true">
       {aiLogo ? <img src={`/icons/ai/${aiLogo}`} alt="" width={20} height={20} loading="lazy" className="ai-tool-logo"/> : icons ? icons.map(icon => <img key={icon} src={`/icons/tech/${icon}.svg`} alt="" width={20} height={20} loading="lazy" className={lightLogos.has(icon) ? 'technology-logo-light' : icon === 'mysql' ? 'technology-logo-bright' : undefined}/>) : <Fallback size={19} strokeWidth={1.6}/>}

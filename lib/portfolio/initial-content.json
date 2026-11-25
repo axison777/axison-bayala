@@ -632,6 +632,19 @@
         "Stitch",
         "UX Pilot"
       ]
+    },
+    {
+      "id": "skills-deployment",
+      "visible": true,
+      "title": "Cloud & déploiement",
+      "items": [
+        "Render",
+        "Vercel",
+        "Google Cloud",
+        "VPS",
+        "o2switch",
+        "IONOS"
+      ]
     }
   ],
   "services": [
@@ -694,6 +707,19 @@
         "Tutoriels de prise en main",
         "Formation des utilisateurs",
         "Accompagnement à l’adoption des outils"
+      ]
+    },
+    {
+      "id": "services-deployment",
+      "visible": true,
+      "icon": "Network",
+      "title": "Déploiement & mise en production",
+      "text": "Je déploie des applications web et des API sur Render, Vercel et Google Cloud, ainsi que sur VPS et sur les hébergements o2switch et IONOS. J’assure la configuration de l’environnement, des domaines et du HTTPS pour rendre les plateformes accessibles.",
+      "items": [
+        "Render · Vercel · Google Cloud",
+        "VPS · o2switch · IONOS",
+        "Domaines, DNS & certificats HTTPS",
+        "Configuration des applications et mises à jour"
       ]
     }
   ],
